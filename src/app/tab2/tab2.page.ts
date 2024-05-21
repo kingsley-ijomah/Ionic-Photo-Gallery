@@ -28,7 +28,7 @@ export class Tab2Page {
         {
           text: 'Delete',
           role: 'destructive',
-          icon: 'trash',
+          icon: 'trash', 
           handler: () => {
             this.photoService.deletePicture(photo, position);
           },

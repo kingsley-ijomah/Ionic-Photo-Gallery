@@ -102,7 +102,7 @@ export class PhotoService {
         resolve(reader.result);
       };
       reader.readAsDataURL(blob);
-    });
+  });
 
   public async loadSaved() {
     // Retrieve cached photo array data
